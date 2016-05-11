@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../css/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#"><img src="../img/Logo.png" style="width: 65px; height: 50px; margin-left: 14px" alt="Cinque Terre"></a>                
+            </div>
+            <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user font-wow">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav font-wow" id="side-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-comments fa-fw"></i> SMS<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="index.html">Envio de SMS</a>
+                                </li>
+                                <li>
+                                    <a href="morris.html">Bandeja de Salida</a>
+                                </li>
+                                <li>
+                                    <a href="morris.html">Directorio</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-whatsapp fa-fw"></i> Whatsapp<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="flot.html">Professional Whatsapp</a>
+                                </li>
+                                <li>
+                                    <a href="morris.html">Bandeja de Entrada</a>
+                                </li>
+                                <li>
+                                    <a href="morris.html">Bandeja de Salida</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-envelope-o fa-fw"></i> Email<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="flot.html">Professional Email</a>
+                                </li>
+                                <li>
+                                    <a href="morris.html">Directorio</a>
+                                </li>
+                                <li>
+                                    <a href="morris.html">Borradores</a>
+                                </li>
+                                <li>
+                                    <a href="morris.html">Registro</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-microphone fa-fw"></i> Notas de Voz<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="flot.html">Professional Voise</a>
+                                </li>
+                                <li>
+                                    <a href="morris.html">Directorio</a>
+                                </li>
+                                <li>
+                                    <a href="morris.html">Borradores</a>
+                                </li>
+                                <li>
+                                    <a href="morris.html">Registro</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
+        <!-- Page Content -->
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row font-wow" style="margin-top: 25px">
+                    <div class="col-md-12">
+                        <div class="col-md-6" >
+                            <label style="font-size: 15px" for="form_message">Mensaje</label>
+                            <textarea id="form_message" name="message" class="form-control" placeholder="No mas de 60 caracteres..." rows="2" required="required"></textarea>
+
+                            <div style="margin-top: 10px"></div>
+                            <!-- elegir el adecuado segun la cantidad de caracteres -->
+                            <span class="label label-success">0/60</span>
+                            <span class="label label-warning">50/60</span>
+                            <span class="label label-danger">61/60</span>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label style="font-size: 15px" for="form_phone">Telefono</label>
+                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="+521 XXX - XXXXXXX">
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 20px" class="col-md-12 text-center">
+                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+                    </div>
+                </div>
+
+                    <!-- /.col-lg-12 -->
+            </div>
+                <!-- /.row -->
+        </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- /#page-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../js/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../js/sb-admin-2.js"></script>
+
+</body>
+
+</html>
